@@ -8,9 +8,6 @@
     "eslint-config-airbnb-base": "8.0.0",
     "eslint-plugin-import": "1.16.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IDEO-coLAB/forkable-js-base.git"
