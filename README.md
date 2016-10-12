@@ -1,11 +1,11 @@
-# forkable-js-base
+# `forkable-js-base`
 This is the IDEO CoLab's base repository for all new JavaScript projects. When creating a new project that uses JavaScript and will be maintained by the CoLab, please [fork this repo](https://help.github.com/articles/fork-a-repo/) and use it as the base for your new project. 
 
-## What the JS Base Includes
+## What This Includes
 
 ### Git Hooks
 
-You will find all Git Hooks in your project's `.git/hooks/` folder. This base repo includes custom Hooks which are automatically upon certain Git events.
+You will find all Git Hooks in your project's `.git/hooks/` folder. This base repo includes custom Hooks which are automatically run when certain Git events are triggered.
 
 #### pre-commit hook
 
