@@ -9,7 +9,7 @@ The base `package.json` file only includes the necessary `devDependencies` and a
 ## Install
 
 ```shell
-> git clone -o [your_origin_repo_name] -b master --single-branch https://github.com/IDEO-coLAB/forkable-js-react-static [your_origin_repo_name]
+> git clone -o [your_origin_repo_name] -b master --single-branch git@github.com:IDEO-coLAB/forkable-js-base.git [your_origin_repo_name]
 > cd [your_origin_repo_name]
 
 # Init npm
