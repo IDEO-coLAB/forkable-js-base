@@ -1,27 +1,11 @@
 {
-  "name": "forkable-js-base",
-  "version": "0.0.1",
-  "description": "A forkable, bare-bones base repository for new CoLab JavaScript projects",
-  "main": "index.js",
   "devDependencies": {
     "eslint": "3.7.1",
     "eslint-config-airbnb-base": "8.0.0",
     "eslint-plugin-import": "1.16.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IDEO-coLAB/forkable-js-base.git"
+  "scripts": {
+    "lint": "eslint ."
   },
-  "keywords": [
-    "CoLab",
-    "ideo",
-    "forkable",
-    "base"
-  ],
-  "author": "Gavin McDermott <gavinmcdermott@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/IDEO-coLAB/forkable-js-base/issues"
-  },
-  "homepage": "https://github.com/IDEO-coLAB/forkable-js-base#readme"
+  "license": "MIT"
 }
