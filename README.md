@@ -33,6 +33,8 @@ At this point, you're all set!
 Browse the code below to see what this looks like in practice.
 
 ```shell
+# Make sure you've already created a new GitHub project called my_new_project
+
 # Clone this base repo to use as my_new_project's foundation
 > git clone -b master --single-branch git@github.com:IDEO-coLAB/forkable-js-base.git my_new_project
 
