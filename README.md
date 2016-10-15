@@ -52,7 +52,7 @@ At this point, you're all set!
 
 ## Usage
 
-After you setup your repo with `npm init` and `npm install`, then you can run the `npm lint` command that automatically came bundled in your project's `package.json` file at any time.
+After you set up your repo with `npm init` and `npm install`, then you can run the `npm lint` command that automatically came bundled in your project's `package.json` file at any time.
 
 **Note: Whether manually run, or run via a custom build script, the `lint` command must be run before commiting your code.**
 
