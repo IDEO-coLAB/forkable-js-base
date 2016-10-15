@@ -42,6 +42,12 @@ Here is an example for how to use this repo as the base for a new CoLab javascri
 > npm install
 ```
 
+5. Add informtion about your project to `package.json` by running `npm init`.
+
+```shell
+> npm init
+```
+
 At this point, you're all set! 
 
 ## Usage
