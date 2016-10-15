@@ -16,7 +16,7 @@ Note: We haven't automated the running of the `lint` command in this repo since 
 
 ## Setup
 
-Here is an example for how you might use this repo as the base for a new CoLab project that will use javascript. Your new project's name is, of all things, `my_new_project`.
+Here is an example for how to use this repo as the base for a new CoLab javascript project. Your new project's name is, of all things, `my_new_project`.
 
 1. Create a new GitHub repo. We'll assume that it, too, is named `my_new_project` (you'll use this repo as your new project's `origin` repo).
 
