@@ -10,7 +10,7 @@ This repo's `package.json` file includes *only the minimum* necessary `devDepend
 
 The purpose of this repo is to act as a base for all new, long-term CoLab projects that use javascript, thus ensuring code consistency within CoLab.
 
-We are not automating the running of the `lint` command which comes bundled with the repo (which you'll see below). You have the flexibility to you to run it as you like during your development workflow.
+Note: We haven't automated the running of the `lint` command in this repo since where it fits best might vary from project to project. However, we strongly suggest you make the `lint` command an automated part of your process. See the Usage section for helpful `lint` automation tips.
 
 **Be ye warned: Lint your code before committing!**
 
