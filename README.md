@@ -8,9 +8,7 @@ This repo's `package.json` file includes *only the minimum* necessary `devDepend
 
 ## Purpose
 
-The purpose of this repo is to ensure javascript code consistency across all CoLab projects that use javascript.
-
-For it to accomplish this purpose, it should serve as the project base for all new, long-term CoLab projects that use javascript. 
+The purpose of this repo is to act as a base for all new, long-term CoLab projects that use javascript, thus ensuring code consistency within CoLab.
 
 We are not automating the running of the `lint` command which comes bundled with the repo (which you'll see below). You have the flexibility to you to run it as you like during your development workflow.
 
