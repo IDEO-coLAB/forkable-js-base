@@ -20,31 +20,29 @@ Here is an example for how to use this repo as the base for a new CoLab javascri
 
 1. Create a new GitHub repo. We'll assume that it, too, is named `my_new_project` (you'll use this repo as your new project's `origin` repo).
 
-2. Clone this repo to use as `my_new_project`'s base. 
-
-3. Set `my_new_project`'s origin to point at your new GitHub project (see step 1) repo for `my_new_project`.
-
-4. Install the dependencies.
-
-At this point, you're all set! 
-
-Browse the code below to see what this looks like in practice.
+2. Clone the `forkable-js-base` repo to use as `my_new_project`'s foundation.
 
 ```shell
-# Make sure you've already created a new GitHub project called my_new_project
-
-# Clone this base repo to use as my_new_project's foundation
 > git clone -b master --single-branch https://github.com/IDEO-coLAB/forkable-js-base.git my_new_project
+```
 
+3. Set `my_new_project`'s origin to point at your new GitHub project repo (see step 1) for `my_new_project`.
+
+```shell
 # Enter your my_new_project's directory
 > cd my_new_project
 
-# Set my_new_project's remote origin to be the GitHub repo you created for it
+# Set my_new_project's remote origin to be the GitHub repo you created for it.
 > git remote set-url origin git@github.com:<YOUR_GITHUB_USERNAME>/my_new_project.git
+```
 
-# Install project dependencies listed in package.json
+4. Install the project dependencies listed in package.json.
+
+```shell
 > npm install
 ```
+
+At this point, you're all set! 
 
 ## Usage
 
